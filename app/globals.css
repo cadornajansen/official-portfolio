@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, 
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Cal Sans";
+  @apply bg-[#f4f5f4] bg-opacity-70 grainy;
+}
+
+.grainy {
+    background-image:url('/grain.png');
+}
