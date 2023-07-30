@@ -93,7 +93,7 @@ export default function Home() {
             />
             <span className="ml-2 text-md">JavaScript</span>
             <span className="ml-2 font-sans text-[15px] ">
-              Write maintainable, robust code using TypeScript.
+              Write maintainable, robust code using JavaScript.
             </span>
           </div>
           <div className="flex flex-col gap-2 items-start justify-start bg-white rounded-md border py-6 px-5">
