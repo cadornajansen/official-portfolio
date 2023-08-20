@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --accent: #16a34a;
+  }
+
+  html,
+  body {
+    scroll-behavior: smooth;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    @apply bg-[#f4f5f4] bg-opacity-70 grainy;
+  }
+
+  h2 {
+    font-family: "Cal Sans";
+  }
+}
+
+@layer utilities {
+  .grainy {
+    background-image: url("/grain.png");
+  }
+
+  .smooth {
+    @apply duration-150 ease-in-out;
+  }
+}
