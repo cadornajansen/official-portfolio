@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="font-sans fixed top-0 bg-[#f2f4f3] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 flex items-center justify-center py-4 w-full gap-3">
+    <header className="z-index-[999] font-sans fixed top-0 bg-[#f2f4f3] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 flex items-center justify-center py-4 w-full gap-3">
       <svg
         className="text-sm hi-solid hi-fire inline-block w-6 h-6 text-green-500"
         xmlns="http://www.w3.org/2000/svg"
