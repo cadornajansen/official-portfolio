@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import Reveal from "../utils/SafeReveal";
+import Reveal from "../utils/Reveal";
 
 const fadeInVariants = {
   initial: {
