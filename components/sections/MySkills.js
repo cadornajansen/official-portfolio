@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import Reveal from "../utils/SafeReveal";
 
 const fadeInVariants = {
   initial: {
@@ -35,8 +36,10 @@ const Skills = () => {
 
   return (
     <section className="w-full flex flex-col justify-center items-center">
-      <h2 className="text-4xl mb-10">My Skills</h2>
-      <ul className="flex flex-wrap justify-center gap-2 text-sm">
+      <Reveal>
+        <h2 className="text-4xl">My Skills</h2>
+      </Reveal>
+      <ul className="mt-10 max-w-xl flex flex-wrap justify-center gap-2 text-sm">
         {skillsData.map((skill, index) => (
           <motion.li
             key={index}

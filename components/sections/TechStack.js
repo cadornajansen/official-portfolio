@@ -13,7 +13,7 @@ const TechStack = () => {
           </h1>
         </Reveal>
         <Reveal>
-          <p className="flex flex-col text-[#7b899c] font-sans max-w-[44rem] leading-normal text-muted-foreground sm:text-[18px] sm:leading-8 md:px-0 px-12">
+          <p className="flex flex-col text-[#7b899c] font-sans md:max-w-[44rem] leading-normal text-muted-foreground sm:text-[18px] sm:leading-8 md:px-0 px-12">
             As a student developer, I have experience working with a variety of
             projects using different languages and frameworks to build robust
             and scalable applications.
@@ -35,7 +35,7 @@ const TechStack = () => {
             />
             <h2 className="ml-2 text-md">Next.js 13</h2>
             <span className="ml-2 text-[15px] text-[#7b899c]">
-              App dir, Routing, Layouts, Loading UI, API routes, you name it.
+              App dir, Routing, Layouts, Loading UI, API routes.
             </span>
           </div>
         </InstantReveal>

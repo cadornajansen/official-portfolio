@@ -31,7 +31,7 @@ const Hero = () => {
           target="_blank"
         >
           <Reveal>
-            <button className="transition-all smooth hover:-translate-y-1 hover:shadow-lg flex items-center justify-center font-sans text-white bg-[#0f172a] px-5 py-2 md:py-3 rounded-md">
+            <button className="z-10 transition-all smooth shadow hover:shadow-lg flex items-center justify-center font-sans text-white bg-[#0f172a] px-5 py-2 md:py-3 rounded-md">
               Chat with me on Discord
               <svg
                 stroke="currentColor"
