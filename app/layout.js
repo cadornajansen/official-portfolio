@@ -1,6 +1,7 @@
 import "cal-sans";
 import "@/styles/globals.css";
 import Header from "@/components/Header";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Jansen Cadorna",
@@ -26,11 +27,10 @@ export default function RootLayout({ children }) {
         <div className="relative flex flex-col w-full justify-center items-center">
           <Header />
 
-          <main>
-            
-          </main>
+          <main></main>
           {children}
         </div>
+        <Analytics />
       </body>
     </html>
   );
